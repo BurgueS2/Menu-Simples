@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+h1 {
+    
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    text-align: center;
+}
+
+p {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.established {
+    font-style: italic;
+}
+
+.item {
+    display: inline-block;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.menu {
+    background-color: aqua;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+img {
+    display: block;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr{
+    background-color: blue;
+    border-color: blueviolet;
+    margin-top: 25px;
+    height: 2px;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+.flavor {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
